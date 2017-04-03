@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'adminlte/base.html' %}
+{% block title_outer %}
+    <title>{% block title %}DashBoard | index{% endblock %}</title>
+{% endblock %}
+{% block meta %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+{% endblock %}
+
+
+{% block content %}
+    {% include './Administrator/tg_sidebar.html' %}
+{% endblock %}
